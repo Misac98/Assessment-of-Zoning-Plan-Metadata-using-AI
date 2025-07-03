@@ -1,5 +1,3 @@
-# Chalmers-master-thesis
-
 A tool have been developed for extracting and visualizing zoning plan metadata across Swedish municipalities. 
 The project is part of a master thesis in Chalmers University of technology.
 
