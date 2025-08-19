@@ -1,0 +1,683 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+        {
+          "dataId": [
+            "detaljplaner.geojson"
+          ],
+          "id": "9336zd8na",
+          "name": [
+            "Built (%)"
+          ],
+          "type": "range",
+          "value": [
+            0,
+            99
+          ],
+          "plotType": "histogram",
+          "animationWindow": "free",
+          "yAxis": null,
+          "view": "side",
+          "speed": 1,
+          "enabled": true
+        }
+      ],
+      "layers": [
+        {
+          "id": "q0g14a",
+          "type": "geojson",
+          "config": {
+            "dataId": "detaljplaner.geojson",
+            "label": "detaljplaner",
+            "color": [
+              18,
+              147,
+              154
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "geometry"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.1,
+              "thickness": 0.2,
+              "strokeColor": [
+                100,
+                84,
+                70
+              ],
+              "colorRange": {
+                "name": "Custom Palette",
+                "type": "custom",
+                "category": "Custom",
+                "colors": [
+                  "#e7d212",
+                  "#2544ad",
+                  "#dd2c18",
+                  "#e06f19"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": true,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center",
+                "outlineWidth": 0,
+                "outlineColor": [
+                  255,
+                  0,
+                  0,
+                  255
+                ],
+                "background": false,
+                "backgroundColor": [
+                  0,
+                  0,
+                  200,
+                  255
+                ]
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Best\u00e4mmelse",
+              "type": "string"
+            },
+            "colorScale": "ordinal",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "lg4jbaa",
+          "type": "geojson",
+          "config": {
+            "dataId": "bost\u00e4der.geojson",
+            "label": "bost\u00e4der",
+            "color": [
+              136,
+              87,
+              44
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "geometry"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.01,
+              "thickness": 0,
+              "strokeColor": [
+                107,
+                69,
+                35
+              ],
+              "colorRange": {
+                "name": "ColorBrewer YlOrRd-9",
+                "type": "sequential",
+                "category": "ColorBrewer",
+                "colors": [
+                  "#ffffcc",
+                  "#ffeda0",
+                  "#fed976",
+                  "#feb24c",
+                  "#fd8d3c",
+                  "#fc4e2a",
+                  "#e31a1c",
+                  "#bd0026",
+                  "#800026"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 8,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": true,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center",
+                "outlineWidth": 0,
+                "outlineColor": [
+                  255,
+                  0,
+                  0,
+                  255
+                ],
+                "background": false,
+                "backgroundColor": [
+                  0,
+                  0,
+                  200,
+                  255
+                ]
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "sqmPrice",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "ktqkmbx",
+          "type": "geojson",
+          "config": {
+            "dataId": "omr\u00e5de.geojson",
+            "label": "omr\u00e5de",
+            "color": [
+              100,
+              84,
+              70
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "geometry"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.05,
+              "strokeOpacity": 0.15,
+              "thickness": 0.5,
+              "strokeColor": [
+                122,
+                78,
+                40
+              ],
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": true,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center",
+                "outlineWidth": 0,
+                "outlineColor": [
+                  255,
+                  0,
+                  0,
+                  255
+                ],
+                "background": false,
+                "backgroundColor": [
+                  0,
+                  0,
+                  200,
+                  255
+                ]
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        }
+      ],
+      "effects": [],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "detaljplaner.geojson": [
+              {
+                "name": "Kommun",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 10,
+                "id": "Kommun",
+                "displayName": "Kommun"
+              },
+              {
+                "name": "Detaljplan",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 1,
+                "id": "Detaljplan",
+                "displayName": "Detaljplan"
+              },
+              {
+                "name": "Laga kraft",
+                "type": "integer",
+                "format": "",
+                "analyzerType": "INT",
+                "fieldIdx": 9,
+                "id": "Laga kraft",
+                "displayName": "Laga kraft"
+              },
+              {
+                "name": "Best\u00e4mmelse",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 2,
+                "id": "Best\u00e4mmelse",
+                "displayName": "Best\u00e4mmelse"
+              },
+              {
+                "name": "Area (m\u00b2)",
+                "type": "integer",
+                "format": "",
+                "analyzerType": "INT",
+                "fieldIdx": 3,
+                "id": "Area (m\u00b2)",
+                "displayName": "Area (m\u00b2)"
+              },
+              {
+                "name": "Built (%)",
+                "type": "integer",
+                "format": "",
+                "analyzerType": "INT",
+                "fieldIdx": 4,
+                "id": "Built (%)",
+                "displayName": "Built (%)"
+              },
+              {
+                "name": "BTA (m\u00b2)",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 6,
+                "id": "BTA (m\u00b2)",
+                "displayName": "BTA (m\u00b2)"
+              },
+              {
+                "name": "BYA (m\u00b2)",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 7,
+                "id": "BYA (m\u00b2)",
+                "displayName": "BYA (m\u00b2)"
+              },
+              {
+                "name": "Amount of floors",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 8,
+                "id": "Amount of floors",
+                "displayName": "Amount of floors"
+              },
+              {
+                "name": "Bostadspriser (kr/m\u00b2)",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 5,
+                "id": "Bostadspriser (kr/m\u00b2)",
+                "displayName": "Bostadspriser (kr/m\u00b2)"
+              },
+              {
+                "name": "View vectorised plan",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 11,
+                "id": "View vectorised plan",
+                "displayName": "View vectorised plan"
+              },
+              {
+                "name": "Download plan",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 12,
+                "id": "Download plan",
+                "displayName": "Download plan"
+              }
+            ],
+            "bost\u00e4der.geojson": [
+              {
+                "name": "municipality",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 3,
+                "id": "municipality",
+                "displayName": "municipality"
+              },
+              {
+                "name": "streetAddress",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 1,
+                "id": "streetAddress",
+                "displayName": "streetAddress"
+              },
+              {
+                "name": "constructionYear",
+                "type": "integer",
+                "format": "",
+                "analyzerType": "INT",
+                "fieldIdx": 6,
+                "id": "constructionYear",
+                "displayName": "constructionYear"
+              },
+              {
+                "name": "soldYear",
+                "type": "integer",
+                "format": "",
+                "analyzerType": "INT",
+                "fieldIdx": 7,
+                "id": "soldYear",
+                "displayName": "soldYear"
+              },
+              {
+                "name": "soldPrice",
+                "type": "integer",
+                "format": "",
+                "analyzerType": "INT",
+                "fieldIdx": 8,
+                "id": "soldPrice",
+                "displayName": "soldPrice"
+              },
+              {
+                "name": "livingArea",
+                "type": "integer",
+                "format": "",
+                "analyzerType": "INT",
+                "fieldIdx": 5,
+                "id": "livingArea",
+                "displayName": "livingArea"
+              },
+              {
+                "name": "sqmPrice",
+                "type": "integer",
+                "format": "",
+                "analyzerType": "INT",
+                "fieldIdx": 13,
+                "id": "sqmPrice",
+                "displayName": "sqmPrice"
+              },
+              {
+                "name": "rooms",
+                "type": "integer",
+                "format": "",
+                "analyzerType": "INT",
+                "fieldIdx": 4,
+                "id": "rooms",
+                "displayName": "rooms"
+              },
+              {
+                "name": "source",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 9,
+                "id": "source",
+                "displayName": "source"
+              },
+              {
+                "name": "source_name",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 10,
+                "id": "source_name",
+                "displayName": "source_name"
+              },
+              {
+                "name": "url",
+                "type": "string",
+                "format": "",
+                "analyzerType": "STRING",
+                "fieldIdx": 12,
+                "id": "url",
+                "displayName": "url"
+              }
+            ],
+            "omr\u00e5de.geojson": []
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "overlayBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      },
+      "editor": {
+        "features": [],
+        "visible": true
+      }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 60,
+      "longitude": 15.5,
+      "pitch": 0,
+      "zoom": 4,
+      "isSplit": false,
+      "isViewportSynced": true,
+      "isZoomLocked": false,
+      "splitMapViewports": []
+    },
+    "mapStyle": {
+      "styleType": "voyager",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        232.7874787737094,
+        232.7874787737094,
+        230.92517894351974
+      ],
+      "backgroundColor": [
+        0,
+        0,
+        0
+      ],
+      "mapStyles": {}
+    }
+  }
+}
