@@ -2,6 +2,9 @@ A tool have been developed for extracting and visualizing zoning plan metadata a
 The project is part of a master thesis in Chalmers University of technology.
 
 **Interactive Maps**
+[Kungälv](https://misac98.github.io/Assessment-of-Zoning-Plan-Metadata-using-AI/Kung%C3%A4lv.html)
+
+[Kungsbacka](https://misac98.github.io/Assessment-of-Zoning-Plan-Metadata-using-AI/Kungsbacka.html)
 
 [Lidköping](https://misac98.github.io/Assessment-of-Zoning-Plan-Metadata-using-AI/Lidk%C3%B6ping.html)
 
