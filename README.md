@@ -21,8 +21,6 @@ The project is part of a master thesis in Chalmers University of technology.
 
 [Sundsvall](https://misac98.github.io/Assessment-of-Zoning-Plan-Metadata-using-AI/Sundsvall.html)
 
-[Botkyrka](https://misac98.github.io/Assessment-of-Zoning-Plan-Metadata-using-AI/Botkyrka.html)
-
 **Contact**
 
 Isac Mjörnell - [Email me](mailto:isac.mjornell@krook.tjader.se)
