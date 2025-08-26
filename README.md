@@ -9,7 +9,7 @@ The project is part of a master thesis in Chalmers University of technology.
 
 [Skövde](https://misac98.github.io/Assessment-of-Zoning-Plan-Metadata-using-AI/Sk%C3%B6vde.html)
 
-[Östersund](https://misac98.github.io/Assessment-of-Zoning-Plan-Metadata-using-AI/%C3%B6stersund.html)
+[Östersund](https://misac98.github.io/Assessment-of-Zoning-Plan-Metadata-using-AI/%C3%96stersund.html)
 
 **Maps not including bostadspriser**
 
