@@ -1,6 +1,6 @@
-Ett projekt där målet är att visualisera och filtrera detaljplaner i svenska kommuner.
+Ett projekt där målet är att visualisera och filtrera detaljplaner i Sverige.
 Nedanstående kartor är exempel på vad som kan produseras.
-Projektet är en del av ett examensarbete vid Chalmers Tekniska Högskola.
+Projektet är en del av ett examensarbete vid Chalmers Tekniska Högskola i samarbete med Krook & Tjäder.
 
 **Maps med bostadspriser**
 
